@@ -1,0 +1,65 @@
+// Dark ————————————————————————————————————————————————————————————————
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-black: black;
+
+    --color-root: var(--color-black);
+
+    --color-root-alpha-0: rgba(0, 0, 0, 0);
+    --color-root-alpha-5: rgba(0, 0, 0, 0.04);
+    --color-root-alpha-10: rgba(0, 0, 0, 0.08);
+    --color-root-alpha-20: rgba(0, 0, 0, 0.16);
+    --color-root-alpha-30: rgba(0, 0, 0, 0.24);
+    --color-root-alpha-40: rgba(0, 0, 0, 0.32);
+    --color-root-alpha-50: rgba(0, 0, 0, 0.4);
+    --color-root-alpha-60: rgba(0, 0, 0, 0.53);
+    --color-root-alpha-70: rgba(0, 0, 0, 0.66);
+    --color-root-alpha-80: rgba(0, 0, 0, 0.78);
+    --color-root-alpha-90: rgba(0, 0, 0, 0.89);
+    --color-root-alpha-95: rgba(0, 0, 0, 0.94);
+    --color-root-alpha-100: rgb(0, 0, 0);
+
+    --color-contrast: var(--color-white);
+
+    --color-contrast-0: #000000;
+    --color-contrast-5: #121216;
+    --color-contrast-10: #191a1f;
+    --color-contrast-20: #32363e;
+    --color-contrast-30: #4e5460;
+    --color-contrast-40: #6c7383;
+    --color-contrast-50: #8b95a9;
+    --color-contrast-60: #a1aaba;
+    --color-contrast-70: #b8bfcb;
+    --color-contrast-80: #d0d4dc;
+    --color-contrast-90: #e8eaee;
+    --color-contrast-95: #f4f5f7;
+
+    --color-contrast-alpha-0: rgba(245, 235, 255, 0);
+    --color-contrast-alpha-5: rgba(245, 235, 255, 0.11);
+    --color-contrast-alpha-10: rgba(245, 235, 255, 0.14);
+    --color-contrast-alpha-20: rgba(245, 235, 255, 0.24);
+    --color-contrast-alpha-30: rgba(245, 235, 255, 0.34);
+    --color-contrast-alpha-40: rgba(245, 235, 255, 0.57);
+    --color-contrast-alpha-50: rgba(245, 235, 255, 0.6);
+    --color-contrast-alpha-60: rgba(245, 235, 255, 0.67);
+    --color-contrast-alpha-70: rgba(245, 235, 255, 0.76);
+    --color-contrast-alpha-80: rgba(245, 235, 255, 0.84);
+    --color-contrast-alpha-90: rgba(245, 235, 255, 0.92);
+    --color-contrast-alpha-95: rgba(245, 235, 255, 0.96);
+    --color-contrast-alpha-100: rgb(245, 235, 255);
+
+    --color-focus: var(--color-key-alpha-80);
+  }
+
+  ::selection {
+    background-color: var(--color-key-alpha-50);
+  }
+
+  .link {
+    &:focus,
+    &:hover {
+      color: var(--color-key-40);
+    }
+  }
+}

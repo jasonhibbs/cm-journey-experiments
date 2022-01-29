@@ -1,0 +1,82 @@
+// Utilities ———————————————————————————————————————————————————————————
+@use 'sass:math';
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
+
+@function rem($value: 16) {
+  @return math.div(1rem, 16) * $value;
+}
+@function -rem($value: 16) {
+  @return math.div(-1rem, 16) * $value;
+}
+
+@function em($value: 16, $context: 16) {
+  @return math.div(1em, $context) * $value;
+}
+
+@mixin font-size($size: 16, $height: 24, $context: 16) {
+  font-size: em($size, $context);
+  line-height: math.div($height, $size);
+}
+
+@mixin padding-x($right: 0, $left: $right) {
+  padding-left: $left;
+  padding-right: $right;
+}
+
+@mixin padding-y($top: 0, $bottom: $top) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+@mixin margin-x($right: 0, $left: $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+@mixin margin-y($top: 0, $bottom: $top) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+}
+
+@mixin focus-outline($color: var(--color-focus), $width: 3px, $offset: 2px) {
+  outline: 0 solid transparent;
+  outline-offset: $offset;
+
+  &,
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:focus {
+    outline-width: $width;
+    outline-color: $color;
+  }
+}
+
+%backdrop-blur {
+  background-color: var(--color-root-alpha-40);
+  backdrop-filter: brightness(200%) blur(20px);
+
+  @media (prefers-color-scheme: dark) {
+    backdrop-filter: brightness(40%) blur(20px);
+  }
+}
+
+@mixin widescreen {
+  @media (min-width: 768px), (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin less-than-widescreen {
+  @media (max-width: 767px) {
+    @content;
+  }
+}

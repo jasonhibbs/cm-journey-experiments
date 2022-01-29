@@ -1,0 +1,106 @@
+// Root ————————————————————————————————————————————————————————————————
+
+:root {
+  --font-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  --font-code: 'IBM Plex Mono', monospace;
+
+  font-family: var(--font-base);
+  font-weight: 400;
+  line-height: math.div(20, 16);
+
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: var(--color-key-alpha-20);
+
+  background-color: var(--color-root);
+  color: var(--color-text);
+}
+
+*,
+:before,
+:after {
+  box-sizing: inherit;
+  font-weight: inherit;
+  outline-color: var(--color-root-alpha-0);
+}
+
+::selection {
+  background-color: var(--color-key-alpha-20);
+}
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  font: inherit;
+  text-rendering: optimizeSpeed;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+a[href] {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--color-key);
+  text-decoration-skip-ink: auto;
+  transition: color 0.1s, background-color 0.1s, outline-color 0.1s;
+  outline-offset: 3px;
+
+  &:focus,
+  &:hover {
+    color: var(--color-key-70);
+  }
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}

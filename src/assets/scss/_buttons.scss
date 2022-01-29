@@ -1,0 +1,58 @@
+// Buttons —————————————————————————————————————————————————————————————
+
+%button {
+  appearance: none;
+  background-color: var(--color-contrast-10);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  color: inherit;
+  outline-offset: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: math.div(18, 16);
+  text-align: center;
+  user-select: none;
+  transition: border-color 0.1s, background-color 0.1s, box-shadow 0.1s,
+    color 0.1s, outline-color 0.1s;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus,
+  &:hover {
+    background-color: var(--color-contrast-20);
+  }
+
+  &[disabled] {
+    pointer-events: none;
+
+    > * {
+      opacity: math.div(3, 5);
+    }
+  }
+
+  .button-icon,
+  .button-label,
+  svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .button-icon {
+    &:first-child {
+      margin-left: em(-4);
+      margin-right: em(2);
+    }
+  }
+}
+
+.button,
+form button {
+  @extend %button;
+}
+
+a.button {
+  text-decoration: none;
+}

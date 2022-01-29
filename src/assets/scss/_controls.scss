@@ -1,0 +1,134 @@
+// Controls ————————————————————————————————————————————————————————————
+
+$icon_arrow-down-dark: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path opacity='.35' d='M7.5 10L12 14.5L16.5 10' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+$icon_arrow-down-light: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path opacity='.35' d='M7.5 10L12 14.5L16.5 10' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+%control {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--color-contrast-alpha-5);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 0 0 var(--color-contrast-alpha-0);
+  color: inherit;
+  display: inline-block;
+  font-size: rem(16);
+  line-height: math.div(18, 16);
+  height: auto;
+  transition: border-color 0.1s, background-color 0.1s, box-shadow 0.1s,
+    color 0.1s, outline-color 0.1s;
+
+  &,
+  &:focus,
+  &:hover {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+
+  &:focus,
+  &:hover {
+    border-color: var(--color-key);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 3px var(--color-key-alpha-30);
+  }
+
+  &[disabled] {
+    pointer-events: none;
+  }
+}
+
+input {
+  @extend %control;
+}
+
+input[type='date'],
+input[type='time'],
+input[type='datetime-local'] {
+  --padding-x: 12;
+  appearance: none;
+  font-variant-numeric: tabular-nums;
+  line-height: math.div(18, 16);
+  min-height: calc((20em / 16) + (10rem / 16));
+  min-width: 0;
+
+  &[required]::-webkit-clear-button {
+    appearance: none;
+    display: none;
+  }
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    height: 0;
+    margin: 0;
+  }
+
+  &::-webkit-calendar-picker-indicator {
+    padding: rem(0);
+    margin: rem(-2);
+    margin-inline-start: 0;
+    opacity: math.div(2, 5);
+    transition: opacity 0.15s;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+
+  &::-webkit-date-and-time-value {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &::-webkit-datetime-edit {
+    min-width: em(52);
+    padding: 0;
+    vertical-align: top;
+  }
+
+  &::-webkit-datetime-edit-text {
+    opacity: math.div(2, 5);
+  }
+
+  &::-webkit-datetime-edit-minute-field,
+  &::-webkit-datetime-edit-hour-field,
+  &::-webkit-datetime-edit-day-field,
+  &::-webkit-datetime-edit-month-field,
+  &::-webkit-datetime-edit-year-field {
+    padding: 0 1px;
+    vertical-align: top;
+  }
+}
+
+select {
+  @extend %control;
+
+  background-position: right rem(2) center;
+  background-repeat: no-repeat;
+  background-size: rem(24) auto;
+  padding-right: rem(12 * 2);
+
+  &:not([multiple]):not([size]) {
+    background-image: $icon_arrow-down-dark;
+
+    @media (prefers-color-scheme: dark) {
+      background-image: $icon_arrow-down-light;
+    }
+  }
+}
