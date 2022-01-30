@@ -1,6 +1,8 @@
 import { useFetch } from '@vueuse/core'
 import { ref } from 'vue'
-import { CMApi, EndpointsService } from '@/api/citymapper'
+
+// https://docs.mainland-eks-staging.citymapper.com/doc/externalapi/docs/welcome.html
+// https://docs-staging.external.citymapper.com/api/
 
 export async function useDirections(params: any) {
   const querystring = new URLSearchParams(params).toString()

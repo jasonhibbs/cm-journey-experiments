@@ -13,6 +13,7 @@ const { scrollBody = null, allowWheel = false } = defineProps<Props>()
 
 // Template
 
+const sheetContext = ref(null)
 const sheet = ref(null)
 
 const contextClasses = $computed(() => ({
@@ -278,14 +279,8 @@ function onScrollSheet(e: Event) {
 .bottom-sheet-header {
   background-color: inherit;
   border-radius: inherit;
-  padding: 1em;
   position: sticky;
   top: 0;
   z-index: 1;
-  box-shadow: 0 0.5px 0 fade-out(#012, 0.6);
-
-  h1 {
-    margin: 0;
-  }
 }
 </style>

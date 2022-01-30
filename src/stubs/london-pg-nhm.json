@@ -1,0 +1,1607 @@
+[
+  {
+    "start": {
+      "coordinates": {
+        "lat": 51.473379,
+        "lon": -0.199225
+      }
+    },
+    "end": {
+      "coordinates": {
+        "lat": 51.495949,
+        "lon": -0.176351
+      }
+    },
+    "duration_seconds": 1558,
+    "duration_accuracy": "scheduled",
+    "price": {
+      "formatted": "£3.00",
+      "amount": "3.00",
+      "currency": "GBP"
+    },
+    "legs": [
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 221,
+        "path": "skdyHb|e@CFGZQfAKx@_@Tc@Zq@h@MRM@YBK@u@Dm@DK?_@@?T",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:00:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:03:41+00:00"
+        },
+        "station_walk_type": "enter_station",
+        "walk_details_enter_station": {
+          "recommended_exit": {
+            "id": "ParsonsGreen_E2890",
+            "stop_id": "ParsonsGreen",
+            "coordinates": {
+              "lat": 51.4752286,
+              "lon": -0.2008273
+            },
+            "name": "Parsons Green Lane"
+          },
+          "alternate_exits": [
+            {
+              "id": "ParsonsGreen_E9674",
+              "stop_id": "ParsonsGreen",
+              "coordinates": {
+                "lat": 51.4753723,
+                "lon": -0.2010038
+              },
+              "name": "Beaconsfield Walk"
+            }
+          ],
+          "duration_seconds": 30
+        }
+      },
+      {
+        "travel_mode": "transit",
+        "duration_seconds": 840,
+        "path": "kvdyHvhf@OR{DaKaCcGgA{BuAgBcB{AiB{@oBi@_Bo@mB_BaAiASYiJkOk@w@aAm@eAMiBXyGjGkApAoBnCmAnBwAtCa@d@e@j@cClAsAVs@Dk@@o@E_AOcBu@iDqD{BiEa@u@kOmXc@aAm@cB[yASaAM{AGmEByAL{AbBuMTiBjB_PHgBBcB_AsVIwC?wA@{@N?",
+        "stops": [
+          {
+            "id": "ParsonsGreen",
+            "name": "Parsons Green",
+            "coordinates": {
+              "lat": 51.475252,
+              "lon": -0.2008
+            }
+          },
+          {
+            "id": "FulhamBroadway",
+            "name": "Fulham Broadway",
+            "coordinates": {
+              "lat": 51.480743,
+              "lon": -0.194401
+            }
+          },
+          {
+            "id": "WestBrompton",
+            "name": "West Brompton",
+            "coordinates": {
+              "lat": 51.487257,
+              "lon": -0.195541
+            }
+          },
+          {
+            "id": "EarlsCourt",
+            "name": "Earl's Court",
+            "coordinates": {
+              "lat": 51.491644,
+              "lon": -0.193889
+            }
+          },
+          {
+            "id": "GloucesterRoad",
+            "name": "Gloucester Road",
+            "coordinates": {
+              "lat": 51.49424,
+              "lon": -0.18299
+            }
+          },
+          {
+            "id": "SouthKensington",
+            "name": "South Kensington",
+            "coordinates": {
+              "lat": 51.494,
+              "lon": -0.173922
+            }
+          }
+        ],
+        "updatable_detail": {
+          "departures": [
+            {
+              "type": "frequency",
+              "service_id": "District",
+              "frequency_seconds_range": [480, 480],
+              "time_status": "unknown"
+            }
+          ],
+          "live_departure_availability": "unknown",
+          "statuses": [
+            {
+              "type": "no_issues",
+              "service_ids": ["District"]
+            }
+          ],
+          "leg_departure_time": "2022-01-31T09:04:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:18:00+00:00"
+        },
+        "vehicle_types": ["metro"],
+        "services": [
+          {
+            "id": "District",
+            "name": "District",
+            "vehicle_types": ["metro"],
+            "brand": {
+              "id": "Underground",
+              "name": "Tube",
+              "images": [
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/8b8aba6801e6c6a8bf1b19accbe5e251d29903dc364ce037759c356f/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/7ad2e46c402b60d6c7504f9e7d51d2b20346238f551c7f2f2f590075/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/4ccce98ceba94488c18974347aea28abc65372f501672c853437fb4a/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/2de58cc981d0472d2cdd91b1683be590513ce72bb7903a4e977b7389/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/db1134a025fe35e5138aeedeaac229b231e639e521281714c8c5276e/d324a6fb/@2x.png",
+                  "width": 15,
+                  "height": 16,
+                  "ui_role": "vehicle_compact",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/1403a6bce9d32a85e8b1739818699862112481edb570f774ffde2bb3/d324a6fb/@2x.png",
+                  "width": 24,
+                  "height": 33,
+                  "ui_role": "vehicle",
+                  "is_generic": true
+                }
+              ]
+            },
+            "images": [
+              {
+                "url": "https://d3440lt1d9mf95.cloudfront.net/67906b44ef950220bcc14815933871155c5d89cbe71c5aa1499c14a2/d324a6fb/@2x.png",
+                "width": 24,
+                "height": 24,
+                "ui_role": "service"
+              },
+              {
+                "url": "https://d3440lt1d9mf95.cloudfront.net/672b5e85dd65413374043b475f792473742712a786e4739808e241d5/d324a6fb/@2x.png",
+                "width": 16,
+                "height": 16,
+                "ui_role": "service"
+              }
+            ],
+            "color": "#007229",
+            "background_color": "#007229",
+            "text_color": "#FFFFFF"
+          }
+        ],
+        "best_boarding_sections": {
+          "front": false,
+          "middle": false,
+          "back": true
+        },
+        "direction_description": "Eastbound"
+      },
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 337,
+        "path": "snhyHz~`@KD@PF?Hv@@JLD?BCVE?C?E?G@I@K@E?E?I@EFGHKBK@I?eCb@OBOBDpA@R@XSDE@GDIHGJENAJ?L?Z@XE@",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:18:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:23:37+00:00"
+        },
+        "station_walk_type": "exit_station",
+        "walk_details_exit_station": {
+          "recommended_exit": {
+            "id": "SouthKensington_EThurloe",
+            "stop_id": "SouthKensington",
+            "coordinates": {
+              "lat": 51.4943373,
+              "lon": -0.174064
+            },
+            "name": "Thurloe Street"
+          },
+          "alternate_exits": [
+            {
+              "id": "SouthKensington_E1_Ismaili",
+              "stop_id": "SouthKensington",
+              "coordinates": {
+                "lat": 51.4954125,
+                "lon": -0.1734266
+              },
+              "name": "Ismaili Centre",
+              "short_name": "1"
+            },
+            {
+              "id": "SouthKensington_E2_NHM",
+              "stop_id": "SouthKensington",
+              "coordinates": {
+                "lat": 51.4958794,
+                "lon": -0.1738362
+              },
+              "name": "Natural History Museum",
+              "short_name": "2"
+            },
+            {
+              "id": "SouthKensington_E3_VA",
+              "stop_id": "SouthKensington",
+              "coordinates": {
+                "lat": 51.4965779,
+                "lon": -0.1736484
+              },
+              "name": "V & A Museum",
+              "short_name": "3"
+            },
+            {
+              "id": "SouthKensington_E4_RAH",
+              "stop_id": "SouthKensington",
+              "coordinates": {
+                "lat": 51.4978901,
+                "lon": -0.1741753
+              },
+              "name": "Imperial College, Science Museum, Royal Albert Hall",
+              "short_name": "4"
+            },
+            {
+              "id": "SouthKensington_EPelham",
+              "stop_id": "SouthKensington",
+              "coordinates": {
+                "lat": 51.4939691,
+                "lon": -0.1740937
+              },
+              "name": "Pelham Street"
+            }
+          ],
+          "duration_seconds": 90
+        }
+      }
+    ],
+    "route_departure_time": "2022-01-31T09:00:00+00:00",
+    "route_arrival_time": "2022-01-31T09:23:37+00:00",
+    "signature": "v2.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbTp0cmFuc2l0MSIsImlhdCI6MTY0MzU2MDMyNywiZnJvbnRlbmRfc2lnbmF0dXJlIjoie1wiY2FyXCI6NDIxOSxcImR1cmF0aW9uXCI6MTU1OCxcImVuZFwiOntcImNvb3Jkc1wiOlwiNTEuNDk1OTQ5LC0wLjE3NjM1MVwifSxcImpyX2luZGV4XCI6MCxcImxlZ3NcIjpbe1wiZGlzdGFuY2VcIjoyOTMsXCJkdXJhdGlvblwiOjIyMSxcImVjXCI6XCI1MS40NzUyMywtMC4yMDA4M1wiLFwiaW5fc3RhdGlvblwiOlwiMC8zMFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjUxLjQ3MzM4LC0wLjE5OTIyXCIsXCJ0b19leGl0XCI6XCJQYXJzb25zR3JlZW5fRTI4OTBcIn0se1wiZHVyYXRpb25cIjo4NDAsXCJlbmRcIjpcIlNvdXRoS2Vuc2luZ3RvblwiLFwibW9kZVwiOlwidHJhbnNpdFwiLFwicm91dGVfaWRzXCI6W1wiRGlzdHJpY3RcIl0sXCJzdGFydFwiOlwiUGFyc29uc0dyZWVuXCIsXCJzdG9wX2NvdW50XCI6NixcInN0b3BfaWRzXCI6W1wiUGxhdGZvcm1fUGFyc29uc0dyZWVuX0RfZE5FXCIsXCJQbGF0Zm9ybV9Tb3V0aEtlbnNpbmd0b25fQ0RfZEVcIl19LHtcImRpc3RhbmNlXCI6Mzc0LFwiZHVyYXRpb25cIjozMzcsXCJlY1wiOlwiNTEuNDk1OTIsLTAuMTc2MzhcIixcImZyb21fZXhpdFwiOlwiU291dGhLZW5zaW5ndG9uX0VUaHVybG9lXCIsXCJpbl9zdGF0aW9uXCI6XCIyLzkwXCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNTEuNDk0MzQsLTAuMTc0MDZcIn1dLFwicHJpY2VfcGVuY2VcIjozMDAsXCJyZWdpb25cIjpcInVrLWxvbmRvblwiLFwicm91dGluZ19yZXF1ZXN0X2lkXCI6XCI2NDdkMWFlMy1iZGFmLTQ4ZTgtYjczNi02NjEyZTE3MmNhMmVcIixcInN0YXJ0XCI6e1wiY29vcmRzXCI6XCI1MS40NzMzNzksLTAuMTk5MjI1XCJ9LFwidGltZVwiOlwiMjAyMi0wMS0zMVQwOTowMDowMCswMDowMC9OT1dJU0hcIixcInZlcnNpb25cIjoyfSIsInJlZ2lvbl9pZCI6InVrLWxvbmRvbiJ9.pNDZAChbYVfxuqExU6GBgpe0r2BAtk15kn_QrUboWfw"
+  },
+  {
+    "start": {
+      "coordinates": {
+        "lat": 51.473379,
+        "lon": -0.199225
+      }
+    },
+    "end": {
+      "coordinates": {
+        "lat": 51.495949,
+        "lon": -0.176351
+      }
+    },
+    "duration_seconds": 1506,
+    "duration_accuracy": "scheduled",
+    "price": {
+      "formatted": "£3.00",
+      "amount": "3.00",
+      "currency": "GBP"
+    },
+    "legs": [
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 221,
+        "path": "skdyHb|e@CFGZQfAKx@_@Tc@Zq@h@MRM@YBK@u@Dm@DK?_@@?T",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:00:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:03:41+00:00"
+        },
+        "station_walk_type": "enter_station",
+        "walk_details_enter_station": {
+          "recommended_exit": {
+            "id": "ParsonsGreen_E2890",
+            "stop_id": "ParsonsGreen",
+            "coordinates": {
+              "lat": 51.4752286,
+              "lon": -0.2008273
+            },
+            "name": "Parsons Green Lane"
+          },
+          "alternate_exits": [
+            {
+              "id": "ParsonsGreen_E9674",
+              "stop_id": "ParsonsGreen",
+              "coordinates": {
+                "lat": 51.4753723,
+                "lon": -0.2010038
+              },
+              "name": "Beaconsfield Walk"
+            }
+          ],
+          "duration_seconds": 30
+        }
+      },
+      {
+        "travel_mode": "transit",
+        "duration_seconds": 360,
+        "path": "kvdyHvhf@OR{DaKaCcGgA{BuAgBcB{AiB{@oBi@_Bo@mB_BaAiASYiJkOk@w@aAm@eAMiBXyGjGkApAoBnCmAnBwAtCa@d@e@j@_Bx@iA`@m@Hs@Dk@@o@E_AOcBu@iDqD{BiEa@u@]eA",
+        "stops": [
+          {
+            "id": "ParsonsGreen",
+            "name": "Parsons Green",
+            "coordinates": {
+              "lat": 51.475252,
+              "lon": -0.2008
+            }
+          },
+          {
+            "id": "FulhamBroadway",
+            "name": "Fulham Broadway",
+            "coordinates": {
+              "lat": 51.480743,
+              "lon": -0.194401
+            }
+          },
+          {
+            "id": "WestBrompton",
+            "name": "West Brompton",
+            "coordinates": {
+              "lat": 51.487257,
+              "lon": -0.195541
+            }
+          },
+          {
+            "id": "EarlsCourt",
+            "name": "Earl's Court",
+            "coordinates": {
+              "lat": 51.491644,
+              "lon": -0.193889
+            }
+          }
+        ],
+        "updatable_detail": {
+          "departures": [
+            {
+              "type": "frequency",
+              "service_id": "District",
+              "frequency_seconds_range": [608, 608],
+              "time_status": "unknown"
+            }
+          ],
+          "live_departure_availability": "unknown",
+          "statuses": [
+            {
+              "type": "no_issues",
+              "service_ids": ["District"]
+            }
+          ],
+          "leg_departure_time": "2022-01-31T09:08:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:14:00+00:00"
+        },
+        "vehicle_types": ["metro"],
+        "services": [
+          {
+            "id": "District",
+            "name": "District",
+            "vehicle_types": ["metro"],
+            "brand": {
+              "id": "Underground",
+              "name": "Tube",
+              "images": [
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/8b8aba6801e6c6a8bf1b19accbe5e251d29903dc364ce037759c356f/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/7ad2e46c402b60d6c7504f9e7d51d2b20346238f551c7f2f2f590075/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/4ccce98ceba94488c18974347aea28abc65372f501672c853437fb4a/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/2de58cc981d0472d2cdd91b1683be590513ce72bb7903a4e977b7389/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/db1134a025fe35e5138aeedeaac229b231e639e521281714c8c5276e/d324a6fb/@2x.png",
+                  "width": 15,
+                  "height": 16,
+                  "ui_role": "vehicle_compact",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/1403a6bce9d32a85e8b1739818699862112481edb570f774ffde2bb3/d324a6fb/@2x.png",
+                  "width": 24,
+                  "height": 33,
+                  "ui_role": "vehicle",
+                  "is_generic": true
+                }
+              ]
+            },
+            "images": [
+              {
+                "url": "https://d3440lt1d9mf95.cloudfront.net/67906b44ef950220bcc14815933871155c5d89cbe71c5aa1499c14a2/d324a6fb/@2x.png",
+                "width": 24,
+                "height": 24,
+                "ui_role": "service"
+              },
+              {
+                "url": "https://d3440lt1d9mf95.cloudfront.net/672b5e85dd65413374043b475f792473742712a786e4739808e241d5/d324a6fb/@2x.png",
+                "width": 16,
+                "height": 16,
+                "ui_role": "service"
+              }
+            ],
+            "color": "#007229",
+            "background_color": "#007229",
+            "text_color": "#FFFFFF"
+          }
+        ],
+        "direction_description": "Eastbound"
+      },
+      {
+        "travel_mode": "transit",
+        "duration_seconds": 240,
+        "path": "w~gyHtxd@\\dAkOmXc@aAm@cBo@{CM{AEoBA}AByAL{AbBuMTiBjB_PHgBBcB_AsVIwC?wA@{@N?",
+        "stops": [
+          {
+            "id": "EarlsCourt",
+            "name": "Earl's Court",
+            "coordinates": {
+              "lat": 51.491644,
+              "lon": -0.193889
+            }
+          },
+          {
+            "id": "GloucesterRoad",
+            "name": "Gloucester Road",
+            "coordinates": {
+              "lat": 51.49424,
+              "lon": -0.18299
+            }
+          },
+          {
+            "id": "SouthKensington",
+            "name": "South Kensington",
+            "coordinates": {
+              "lat": 51.494,
+              "lon": -0.173922
+            }
+          }
+        ],
+        "updatable_detail": {
+          "departures": [
+            {
+              "type": "frequency",
+              "service_id": "District",
+              "frequency_seconds_range": [293, 293],
+              "time_status": "unknown"
+            }
+          ],
+          "live_departure_availability": "unknown",
+          "statuses": [
+            {
+              "type": "no_issues",
+              "service_ids": ["District"]
+            }
+          ],
+          "leg_departure_time": "2022-01-31T09:22:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:26:00+00:00"
+        },
+        "vehicle_types": ["metro"],
+        "services": [
+          {
+            "id": "District",
+            "name": "District",
+            "vehicle_types": ["metro"],
+            "brand": {
+              "id": "Underground",
+              "name": "Tube",
+              "images": [
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/8b8aba6801e6c6a8bf1b19accbe5e251d29903dc364ce037759c356f/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/7ad2e46c402b60d6c7504f9e7d51d2b20346238f551c7f2f2f590075/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/4ccce98ceba94488c18974347aea28abc65372f501672c853437fb4a/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/2de58cc981d0472d2cdd91b1683be590513ce72bb7903a4e977b7389/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/db1134a025fe35e5138aeedeaac229b231e639e521281714c8c5276e/d324a6fb/@2x.png",
+                  "width": 15,
+                  "height": 16,
+                  "ui_role": "vehicle_compact",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/1403a6bce9d32a85e8b1739818699862112481edb570f774ffde2bb3/d324a6fb/@2x.png",
+                  "width": 24,
+                  "height": 33,
+                  "ui_role": "vehicle",
+                  "is_generic": true
+                }
+              ]
+            },
+            "images": [
+              {
+                "url": "https://d3440lt1d9mf95.cloudfront.net/67906b44ef950220bcc14815933871155c5d89cbe71c5aa1499c14a2/d324a6fb/@2x.png",
+                "width": 24,
+                "height": 24,
+                "ui_role": "service"
+              },
+              {
+                "url": "https://d3440lt1d9mf95.cloudfront.net/672b5e85dd65413374043b475f792473742712a786e4739808e241d5/d324a6fb/@2x.png",
+                "width": 16,
+                "height": 16,
+                "ui_role": "service"
+              }
+            ],
+            "color": "#007229",
+            "background_color": "#007229",
+            "text_color": "#FFFFFF"
+          }
+        ],
+        "best_boarding_sections": {
+          "front": false,
+          "middle": false,
+          "back": true
+        },
+        "direction_description": "Eastbound"
+      },
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 337,
+        "path": "snhyHz~`@KD@PF?Hv@@JLD?BCVE?C?E?G@I@K@E?E?I@EFGHKBK@I?eCb@OBOBDpA@R@XSDE@GDIHGJENAJ?L?Z@XE@",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:26:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:31:37+00:00"
+        },
+        "station_walk_type": "exit_station",
+        "walk_details_exit_station": {
+          "recommended_exit": {
+            "id": "SouthKensington_EThurloe",
+            "stop_id": "SouthKensington",
+            "coordinates": {
+              "lat": 51.4943373,
+              "lon": -0.174064
+            },
+            "name": "Thurloe Street"
+          },
+          "alternate_exits": [
+            {
+              "id": "SouthKensington_E1_Ismaili",
+              "stop_id": "SouthKensington",
+              "coordinates": {
+                "lat": 51.4954125,
+                "lon": -0.1734266
+              },
+              "name": "Ismaili Centre",
+              "short_name": "1"
+            },
+            {
+              "id": "SouthKensington_E2_NHM",
+              "stop_id": "SouthKensington",
+              "coordinates": {
+                "lat": 51.4958794,
+                "lon": -0.1738362
+              },
+              "name": "Natural History Museum",
+              "short_name": "2"
+            },
+            {
+              "id": "SouthKensington_E3_VA",
+              "stop_id": "SouthKensington",
+              "coordinates": {
+                "lat": 51.4965779,
+                "lon": -0.1736484
+              },
+              "name": "V & A Museum",
+              "short_name": "3"
+            },
+            {
+              "id": "SouthKensington_E4_RAH",
+              "stop_id": "SouthKensington",
+              "coordinates": {
+                "lat": 51.4978901,
+                "lon": -0.1741753
+              },
+              "name": "Imperial College, Science Museum, Royal Albert Hall",
+              "short_name": "4"
+            },
+            {
+              "id": "SouthKensington_EPelham",
+              "stop_id": "SouthKensington",
+              "coordinates": {
+                "lat": 51.4939691,
+                "lon": -0.1740937
+              },
+              "name": "Pelham Street"
+            }
+          ],
+          "duration_seconds": 90
+        }
+      }
+    ],
+    "route_departure_time": "2022-01-31T09:00:00+00:00",
+    "route_arrival_time": "2022-01-31T09:31:37+00:00",
+    "signature": "v2.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbTp0cmFuc2l0MSIsImlhdCI6MTY0MzU2MDMyNywiZnJvbnRlbmRfc2lnbmF0dXJlIjoie1wiY2FyXCI6NDIxOSxcImR1cmF0aW9uXCI6MTUwNixcImVuZFwiOntcImNvb3Jkc1wiOlwiNTEuNDk1OTQ5LC0wLjE3NjM1MVwifSxcImpyX2luZGV4XCI6MSxcImxlZ3NcIjpbe1wiZGlzdGFuY2VcIjoyOTMsXCJkdXJhdGlvblwiOjIyMSxcImVjXCI6XCI1MS40NzUyMywtMC4yMDA4M1wiLFwiaW5fc3RhdGlvblwiOlwiMC8zMFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjUxLjQ3MzM4LC0wLjE5OTIyXCIsXCJ0b19leGl0XCI6XCJQYXJzb25zR3JlZW5fRTI4OTBcIn0se1wiZHVyYXRpb25cIjozNjAsXCJlbmRcIjpcIkVhcmxzQ291cnRcIixcIm1vZGVcIjpcInRyYW5zaXRcIixcInJvdXRlX2lkc1wiOltcIkRpc3RyaWN0XCJdLFwic3RhcnRcIjpcIlBhcnNvbnNHcmVlblwiLFwic3RvcF9jb3VudFwiOjQsXCJzdG9wX2lkc1wiOltcIlBsYXRmb3JtX1BhcnNvbnNHcmVlbl9EX2RORVwiLFwiUGxhdGZvcm1fRWFybHNDb3VydF9EX2RFXCJdfSx7XCJkdXJhdGlvblwiOjI0MCxcImVuZFwiOlwiU291dGhLZW5zaW5ndG9uXCIsXCJtb2RlXCI6XCJ0cmFuc2l0XCIsXCJyb3V0ZV9pZHNcIjpbXCJEaXN0cmljdFwiXSxcInN0YXJ0XCI6XCJFYXJsc0NvdXJ0XCIsXCJzdG9wX2NvdW50XCI6MyxcInN0b3BfaWRzXCI6W1wiUGxhdGZvcm1fRWFybHNDb3VydF9EX2RFXCIsXCJQbGF0Zm9ybV9Tb3V0aEtlbnNpbmd0b25fQ0RfZEVcIl19LHtcImRpc3RhbmNlXCI6Mzc0LFwiZHVyYXRpb25cIjozMzcsXCJlY1wiOlwiNTEuNDk1OTIsLTAuMTc2MzhcIixcImZyb21fZXhpdFwiOlwiU291dGhLZW5zaW5ndG9uX0VUaHVybG9lXCIsXCJpbl9zdGF0aW9uXCI6XCIyLzkwXCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNTEuNDk0MzQsLTAuMTc0MDZcIn1dLFwicHJpY2VfcGVuY2VcIjozMDAsXCJyZWdpb25cIjpcInVrLWxvbmRvblwiLFwicm91dGluZ19yZXF1ZXN0X2lkXCI6XCI2NDdkMWFlMy1iZGFmLTQ4ZTgtYjczNi02NjEyZTE3MmNhMmVcIixcInN0YXJ0XCI6e1wiY29vcmRzXCI6XCI1MS40NzMzNzksLTAuMTk5MjI1XCJ9LFwidGltZVwiOlwiMjAyMi0wMS0zMVQwOTowMDowMCswMDowMC9OT1dJU0hcIixcInZlcnNpb25cIjoyfSIsInJlZ2lvbl9pZCI6InVrLWxvbmRvbiJ9.w-1OTbvcq5wFwhGBshmTunWarvRVSbwJ5nhUqZnBNhI"
+  },
+  {
+    "start": {
+      "coordinates": {
+        "lat": 51.473379,
+        "lon": -0.199225
+      }
+    },
+    "end": {
+      "coordinates": {
+        "lat": 51.495949,
+        "lon": -0.176351
+      }
+    },
+    "duration_seconds": 1504,
+    "duration_accuracy": "scheduled",
+    "price": {
+      "formatted": "£3.00",
+      "amount": "3.00",
+      "currency": "GBP"
+    },
+    "legs": [
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 221,
+        "path": "skdyHb|e@CFGZQfAKx@_@Tc@Zq@h@MRM@YBK@u@Dm@DK?_@@?T",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:00:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:03:41+00:00"
+        },
+        "station_walk_type": "enter_station",
+        "walk_details_enter_station": {
+          "recommended_exit": {
+            "id": "ParsonsGreen_E2890",
+            "stop_id": "ParsonsGreen",
+            "coordinates": {
+              "lat": 51.4752286,
+              "lon": -0.2008273
+            },
+            "name": "Parsons Green Lane"
+          },
+          "alternate_exits": [
+            {
+              "id": "ParsonsGreen_E9674",
+              "stop_id": "ParsonsGreen",
+              "coordinates": {
+                "lat": 51.4753723,
+                "lon": -0.2010038
+              },
+              "name": "Beaconsfield Walk"
+            }
+          ],
+          "duration_seconds": 30
+        }
+      },
+      {
+        "travel_mode": "transit",
+        "duration_seconds": 360,
+        "path": "kvdyHvhf@OR{DaKaCcGgA{BuAgBcB{AiB{@oBi@_Bo@mB_BaAiASYiJkOk@w@aAm@eAMiBXyGjGkApAoBnCmAnBwAtCa@d@e@j@cClAsAVs@Dk@@o@E_AOcBu@iDqD{BiEa@u@]eA",
+        "stops": [
+          {
+            "id": "ParsonsGreen",
+            "name": "Parsons Green",
+            "coordinates": {
+              "lat": 51.475252,
+              "lon": -0.2008
+            }
+          },
+          {
+            "id": "FulhamBroadway",
+            "name": "Fulham Broadway",
+            "coordinates": {
+              "lat": 51.480743,
+              "lon": -0.194401
+            }
+          },
+          {
+            "id": "WestBrompton",
+            "name": "West Brompton",
+            "coordinates": {
+              "lat": 51.487257,
+              "lon": -0.195541
+            }
+          },
+          {
+            "id": "EarlsCourt",
+            "name": "Earl's Court",
+            "coordinates": {
+              "lat": 51.491644,
+              "lon": -0.193889
+            }
+          }
+        ],
+        "updatable_detail": {
+          "departures": [
+            {
+              "type": "frequency",
+              "service_id": "District",
+              "frequency_seconds_range": [268, 268],
+              "time_status": "unknown"
+            }
+          ],
+          "live_departure_availability": "unknown",
+          "statuses": [
+            {
+              "type": "no_issues",
+              "service_ids": ["District"]
+            }
+          ],
+          "leg_departure_time": "2022-01-31T09:04:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:10:00+00:00"
+        },
+        "vehicle_types": ["metro"],
+        "services": [
+          {
+            "id": "District",
+            "name": "District",
+            "vehicle_types": ["metro"],
+            "brand": {
+              "id": "Underground",
+              "name": "Tube",
+              "images": [
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/8b8aba6801e6c6a8bf1b19accbe5e251d29903dc364ce037759c356f/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/7ad2e46c402b60d6c7504f9e7d51d2b20346238f551c7f2f2f590075/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/4ccce98ceba94488c18974347aea28abc65372f501672c853437fb4a/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/2de58cc981d0472d2cdd91b1683be590513ce72bb7903a4e977b7389/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/db1134a025fe35e5138aeedeaac229b231e639e521281714c8c5276e/d324a6fb/@2x.png",
+                  "width": 15,
+                  "height": 16,
+                  "ui_role": "vehicle_compact",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/1403a6bce9d32a85e8b1739818699862112481edb570f774ffde2bb3/d324a6fb/@2x.png",
+                  "width": 24,
+                  "height": 33,
+                  "ui_role": "vehicle",
+                  "is_generic": true
+                }
+              ]
+            },
+            "images": [
+              {
+                "url": "https://d3440lt1d9mf95.cloudfront.net/67906b44ef950220bcc14815933871155c5d89cbe71c5aa1499c14a2/d324a6fb/@2x.png",
+                "width": 24,
+                "height": 24,
+                "ui_role": "service"
+              },
+              {
+                "url": "https://d3440lt1d9mf95.cloudfront.net/672b5e85dd65413374043b475f792473742712a786e4739808e241d5/d324a6fb/@2x.png",
+                "width": 16,
+                "height": 16,
+                "ui_role": "service"
+              }
+            ],
+            "color": "#007229",
+            "background_color": "#007229",
+            "text_color": "#FFFFFF"
+          }
+        ],
+        "best_boarding_sections": {
+          "front": false,
+          "middle": true,
+          "back": false
+        },
+        "direction_description": "Eastbound"
+      },
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 75,
+        "path": "w~gyHtxd@??",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:10:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:11:15+00:00"
+        },
+        "station_walk_type": "change_platform"
+      },
+      {
+        "travel_mode": "transit",
+        "duration_seconds": 120,
+        "path": "w~gyHtxd@\\dAkBaD_LkSc@aAm@cBo@{CM{AEoBA}AByAL{AbBuMTiBPH",
+        "stops": [
+          {
+            "id": "EarlsCourt",
+            "name": "Earl's Court",
+            "coordinates": {
+              "lat": 51.491644,
+              "lon": -0.193889
+            }
+          },
+          {
+            "id": "GloucesterRoad",
+            "name": "Gloucester Road",
+            "coordinates": {
+              "lat": 51.49424,
+              "lon": -0.18299
+            }
+          }
+        ],
+        "updatable_detail": {
+          "departures": [
+            {
+              "type": "frequency",
+              "service_id": "Piccadilly",
+              "frequency_seconds_range": [151, 151],
+              "time_status": "unknown"
+            }
+          ],
+          "live_departure_availability": "unknown",
+          "statuses": [
+            {
+              "type": "no_issues",
+              "service_ids": ["Piccadilly"]
+            }
+          ],
+          "leg_departure_time": "2022-01-31T09:12:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:14:00+00:00"
+        },
+        "vehicle_types": ["metro"],
+        "services": [
+          {
+            "id": "Piccadilly",
+            "name": "Piccadilly",
+            "vehicle_types": ["metro"],
+            "brand": {
+              "id": "Underground",
+              "name": "Tube",
+              "images": [
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/8b8aba6801e6c6a8bf1b19accbe5e251d29903dc364ce037759c356f/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/7ad2e46c402b60d6c7504f9e7d51d2b20346238f551c7f2f2f590075/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/4ccce98ceba94488c18974347aea28abc65372f501672c853437fb4a/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/2de58cc981d0472d2cdd91b1683be590513ce72bb7903a4e977b7389/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/db1134a025fe35e5138aeedeaac229b231e639e521281714c8c5276e/d324a6fb/@2x.png",
+                  "width": 15,
+                  "height": 16,
+                  "ui_role": "vehicle_compact",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/1403a6bce9d32a85e8b1739818699862112481edb570f774ffde2bb3/d324a6fb/@2x.png",
+                  "width": 24,
+                  "height": 33,
+                  "ui_role": "vehicle",
+                  "is_generic": true
+                }
+              ]
+            },
+            "images": [
+              {
+                "url": "https://d3440lt1d9mf95.cloudfront.net/601d488ba37abdd0b275d43319d7c7983ce54f3f7616a3d93d94cfd1/d324a6fb/@2x.png",
+                "width": 24,
+                "height": 24,
+                "ui_role": "service"
+              },
+              {
+                "url": "https://d3440lt1d9mf95.cloudfront.net/1b85932a224db976511c156c4cba802931fc378ae2a93a617a7198c7/d324a6fb/@2x.png",
+                "width": 16,
+                "height": 16,
+                "ui_role": "service"
+              }
+            ],
+            "color": "#0019A8",
+            "background_color": "#2B3DA5",
+            "text_color": "#FFFFFF"
+          }
+        ],
+        "best_boarding_sections": {
+          "front": true,
+          "middle": false,
+          "back": false
+        },
+        "direction_description": "Eastbound"
+      },
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 564,
+        "path": "aohyHztb@Gc@EBIBEBUJMFWJIDMFA_@AMAc@KwBGkB?CO_EGkBCqAG@?YI@AYCa@Ai@AOMaEAUIgCQDC?G@KCIIEGEKCOCMAW?SE@",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:14:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:23:24+00:00"
+        },
+        "station_walk_type": "exit_station",
+        "walk_details_exit_station": {
+          "recommended_exit": {
+            "id": "GloucesterRoad_Exit",
+            "stop_id": "GloucesterRoad",
+            "coordinates": {
+              "lat": 51.49441,
+              "lon": -0.1827
+            }
+          },
+          "duration_seconds": 135
+        }
+      }
+    ],
+    "route_departure_time": "2022-01-31T09:00:00+00:00",
+    "route_arrival_time": "2022-01-31T09:23:24+00:00",
+    "signature": "v2.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbTp0cmFuc2l0MSIsImlhdCI6MTY0MzU2MDMyNywiZnJvbnRlbmRfc2lnbmF0dXJlIjoie1wiY2FyXCI6NDIxOSxcImR1cmF0aW9uXCI6MTUwNCxcImVuZFwiOntcImNvb3Jkc1wiOlwiNTEuNDk1OTQ5LC0wLjE3NjM1MVwifSxcImpyX2luZGV4XCI6MixcImxlZ3NcIjpbe1wiZGlzdGFuY2VcIjoyOTMsXCJkdXJhdGlvblwiOjIyMSxcImVjXCI6XCI1MS40NzUyMywtMC4yMDA4M1wiLFwiaW5fc3RhdGlvblwiOlwiMC8zMFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjUxLjQ3MzM4LC0wLjE5OTIyXCIsXCJ0b19leGl0XCI6XCJQYXJzb25zR3JlZW5fRTI4OTBcIn0se1wiZHVyYXRpb25cIjozNjAsXCJlbmRcIjpcIkVhcmxzQ291cnRcIixcIm1vZGVcIjpcInRyYW5zaXRcIixcInJvdXRlX2lkc1wiOltcIkRpc3RyaWN0XCJdLFwic3RhcnRcIjpcIlBhcnNvbnNHcmVlblwiLFwic3RvcF9jb3VudFwiOjQsXCJzdG9wX2lkc1wiOltcIlBsYXRmb3JtX1BhcnNvbnNHcmVlbl9EX2RORVwiLFwiUGxhdGZvcm1fRWFybHNDb3VydF9EX2RFXCJdfSx7XCJkaXN0YW5jZVwiOjU5LFwiZHVyYXRpb25cIjo3NSxcImVjXCI6XCI1MS40OTE4LC0wLjE5MzU1XCIsXCJpbl9zdGF0aW9uXCI6XCIxLzc1XCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNTEuNDkxOCwtMC4xOTM1NVwifSx7XCJkdXJhdGlvblwiOjEyMCxcImVuZFwiOlwiR2xvdWNlc3RlclJvYWRcIixcIm1vZGVcIjpcInRyYW5zaXRcIixcInJvdXRlX2lkc1wiOltcIlBpY2NhZGlsbHlcIl0sXCJzdGFydFwiOlwiRWFybHNDb3VydFwiLFwic3RvcF9jb3VudFwiOjIsXCJzdG9wX2lkc1wiOltcIlBsYXRmb3JtX0VhcmxzQ291cnRfUF9kRVwiLFwiUGxhdGZvcm1fR2xvdWNlc3RlclJvYWRfUF9kRVwiXX0se1wiZGlzdGFuY2VcIjo1OTksXCJkdXJhdGlvblwiOjU2NCxcImVjXCI6XCI1MS40OTU5MiwtMC4xNzYzOFwiLFwiZnJvbV9leGl0XCI6XCJHbG91Y2VzdGVyUm9hZF9FeGl0XCIsXCJpbl9zdGF0aW9uXCI6XCIyLzEzNVwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjUxLjQ5NDQxLC0wLjE4MjdcIn1dLFwicHJpY2VfcGVuY2VcIjozMDAsXCJyZWdpb25cIjpcInVrLWxvbmRvblwiLFwicm91dGluZ19yZXF1ZXN0X2lkXCI6XCI2NDdkMWFlMy1iZGFmLTQ4ZTgtYjczNi02NjEyZTE3MmNhMmVcIixcInN0YXJ0XCI6e1wiY29vcmRzXCI6XCI1MS40NzMzNzksLTAuMTk5MjI1XCJ9LFwidGltZVwiOlwiMjAyMi0wMS0zMVQwOTowMDowMCswMDowMC9OT1dJU0hcIixcInZlcnNpb25cIjoyfSIsInJlZ2lvbl9pZCI6InVrLWxvbmRvbiJ9.Y5xEktuygjQ55y1XimkdM17zcyewZucRwTwM6WShcEQ"
+  },
+  {
+    "start": {
+      "coordinates": {
+        "lat": 51.473379,
+        "lon": -0.199225
+      }
+    },
+    "end": {
+      "coordinates": {
+        "lat": 51.495949,
+        "lon": -0.176351
+      }
+    },
+    "duration_seconds": 1900,
+    "duration_accuracy": "scheduled",
+    "price": {
+      "formatted": "£1.55",
+      "amount": "1.55",
+      "currency": "GBP"
+    },
+    "legs": [
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 417,
+        "path": "skdyHb|e@CFGZQfAKx@_@Tc@Zq@h@MRM@YBK@u@Dm@DK?_@@A?K?G?C?C?C?S@G?C?[AO?a@Du@R[L]PIFoAp@QLa@ZKJMTQMECQGUICAEP",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:00:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:06:57+00:00"
+        }
+      },
+      {
+        "travel_mode": "transit",
+        "duration_seconds": 810,
+        "path": "wfeyHzjf@FYq@i@mBgDeBgBeGgJSYOkA~A}KSeEe@aKb@kIGyD?Mo@kDwEgH{CoCGEsBiCqDkGaBsCkDgIiAoCcFcKqDiG{HqMgCkEsDcHIN",
+        "stops": [
+          {
+            "id": "490010861T",
+            "name": "Parsons Green Lane / Fulham Library",
+            "coordinates": {
+              "lat": 51.477719,
+              "lon": -0.201582
+            },
+            "indicator_text": "T"
+          },
+          {
+            "id": "490008547E",
+            "name": "Fulham Broadway",
+            "coordinates": {
+              "lat": 51.480356,
+              "lon": -0.198181
+            },
+            "indicator_text": "E"
+          },
+          {
+            "id": "490000084L",
+            "name": "Fulham Broadway Station",
+            "coordinates": {
+              "lat": 51.480129,
+              "lon": -0.194517
+            },
+            "indicator_text": "L"
+          },
+          {
+            "id": "490005075E",
+            "name": "Chelsea Village",
+            "coordinates": {
+              "lat": 51.480341,
+              "lon": -0.192507
+            },
+            "indicator_text": "U"
+          },
+          {
+            "id": "490005069E",
+            "name": "Chelsea Football Club",
+            "coordinates": {
+              "lat": 51.480203,
+              "lon": -0.189992
+            },
+            "indicator_text": "V"
+          },
+          {
+            "id": "490008380HD",
+            "name": "Hortensia Road",
+            "coordinates": {
+              "lat": 51.482269,
+              "lon": -0.186915
+            },
+            "indicator_text": "HD"
+          },
+          {
+            "id": "490006437HE",
+            "name": "Edith Grove",
+            "coordinates": {
+              "lat": 51.483793,
+              "lon": -0.184867
+            },
+            "indicator_text": "HE"
+          },
+          {
+            "id": "490005062HF",
+            "name": "Chelsea and Westminster Hospital",
+            "coordinates": {
+              "lat": 51.48515,
+              "lon": -0.182479
+            },
+            "indicator_text": "HF"
+          },
+          {
+            "id": "490003726E",
+            "name": "Fulham Road / Beaufort Street",
+            "coordinates": {
+              "lat": 51.487561,
+              "lon": -0.178523
+            },
+            "indicator_text": "HH"
+          },
+          {
+            "id": "490006514N",
+            "name": "Old Church Street",
+            "coordinates": {
+              "lat": 51.489107,
+              "lon": -0.176128
+            },
+            "indicator_text": "HJ"
+          },
+          {
+            "id": "490015421E",
+            "name": "Royal Brompton Hosp / Royal Marsden Hosp",
+            "coordinates": {
+              "lat": 51.490724,
+              "lon": -0.173701
+            },
+            "indicator_text": "HM"
+          }
+        ],
+        "updatable_detail": {
+          "departures": [
+            {
+              "type": "frequency",
+              "service_id": "LondonBus14",
+              "frequency_seconds_range": [240, 240],
+              "time_status": "unknown"
+            },
+            {
+              "type": "frequency",
+              "service_id": "LondonBus414",
+              "frequency_seconds_range": [240, 240],
+              "time_status": "unknown"
+            }
+          ],
+          "live_departure_availability": "unknown",
+          "statuses": [
+            {
+              "type": "no_issues",
+              "service_ids": ["LondonBus14", "LondonBus414"]
+            }
+          ],
+          "leg_departure_time": "2022-01-31T09:08:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:21:30+00:00"
+        },
+        "vehicle_types": ["bus"],
+        "services": [
+          {
+            "id": "LondonBus14",
+            "name": "14",
+            "vehicle_types": ["bus"],
+            "brand": {
+              "id": "LondonBus",
+              "name": "Bus",
+              "images": [
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/48b8784c04f1ef54504b24468db3482c2da2df6572d5a4c4d758b602/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "has_space_for_text": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/f07d8df54ead4238c6cdb0f1a5264d7bf5b948a15848e9364600b32f/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/9d0396bf3a62b4400abd3590b3ff367bffe42ab380cbdcbae37ede41/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "has_space_for_text": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/eac51b8d19db61809944bedb35abdb81f9345c85506d2a9189ea5372/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/d017fb8cdd82a312484df53e7bf3e1b4b39c1940a4ce077a6c617d2e/d324a6fb/@2x.png",
+                  "width": 12,
+                  "height": 16,
+                  "ui_role": "vehicle_compact"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                  "width": 13,
+                  "height": 16,
+                  "ui_role": "vehicle_compact",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/2e25c93eae55e23cd53e90678d66e4aed6b7beb11f6f869569a200c6/d324a6fb/@2x.png",
+                  "width": 20,
+                  "height": 20,
+                  "ui_role": "vehicle"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                  "width": 24,
+                  "height": 33,
+                  "ui_role": "vehicle",
+                  "is_generic": true
+                }
+              ]
+            },
+            "color": "#DC241F",
+            "background_color": "#C2322E",
+            "text_color": "#FFFFFF"
+          },
+          {
+            "id": "LondonBus414",
+            "name": "414",
+            "vehicle_types": ["bus"],
+            "brand": {
+              "id": "LondonBus",
+              "name": "Bus",
+              "images": [
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/48b8784c04f1ef54504b24468db3482c2da2df6572d5a4c4d758b602/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "has_space_for_text": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/f07d8df54ead4238c6cdb0f1a5264d7bf5b948a15848e9364600b32f/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/9d0396bf3a62b4400abd3590b3ff367bffe42ab380cbdcbae37ede41/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "has_space_for_text": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/eac51b8d19db61809944bedb35abdb81f9345c85506d2a9189ea5372/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/d017fb8cdd82a312484df53e7bf3e1b4b39c1940a4ce077a6c617d2e/d324a6fb/@2x.png",
+                  "width": 12,
+                  "height": 16,
+                  "ui_role": "vehicle_compact"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                  "width": 13,
+                  "height": 16,
+                  "ui_role": "vehicle_compact",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/2e25c93eae55e23cd53e90678d66e4aed6b7beb11f6f869569a200c6/d324a6fb/@2x.png",
+                  "width": 20,
+                  "height": 20,
+                  "ui_role": "vehicle"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                  "width": 24,
+                  "height": 33,
+                  "ui_role": "vehicle",
+                  "is_generic": true
+                }
+              ]
+            },
+            "color": "#DC241F",
+            "background_color": "#C2322E",
+            "text_color": "#FFFFFF"
+          }
+        ]
+      },
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 593,
+        "path": "_xgyHr|`@DIa@q@IOSVk@n@wA`BiBxBOPKLg@j@KJ{BhCCDC@IJC@sBrBST?V@@B~@@N@TK@qAP}Df@AWOBIgCQDC?G@KCIIEGEKCOCMAW?SE@",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:21:30+00:00",
+          "leg_arrival_time": "2022-01-31T09:31:23+00:00"
+        }
+      }
+    ],
+    "route_departure_time": "2022-01-31T09:00:00+00:00",
+    "route_arrival_time": "2022-01-31T09:31:23+00:00",
+    "signature": "v2.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbTp0cmFuc2l0MSIsImlhdCI6MTY0MzU2MDMyNywiZnJvbnRlbmRfc2lnbmF0dXJlIjoie1wiY2FyXCI6NDIxOSxcImR1cmF0aW9uXCI6MTkwMCxcImVuZFwiOntcImNvb3Jkc1wiOlwiNTEuNDk1OTQ5LC0wLjE3NjM1MVwifSxcImpyX2luZGV4XCI6MyxcImxlZ3NcIjpbe1wiZGlzdGFuY2VcIjo1NTIsXCJkdXJhdGlvblwiOjQxNyxcImVjXCI6XCI1MS40Nzc3MiwtMC4yMDE1OFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjUxLjQ3MzM4LC0wLjE5OTIyXCJ9LHtcImR1cmF0aW9uXCI6ODEwLFwiZW5kXCI6XCI0OTAwMTU0MjFFXCIsXCJtb2RlXCI6XCJ0cmFuc2l0XCIsXCJyb3V0ZV9pZHNcIjpbXCJMb25kb25CdXMxNFwiLFwiTG9uZG9uQnVzNDE0XCJdLFwic3RhcnRcIjpcIjQ5MDAxMDg2MVRcIixcInN0b3BfY291bnRcIjoxMX0se1wiZGlzdGFuY2VcIjo3OTUsXCJkdXJhdGlvblwiOjU5MyxcImVjXCI6XCI1MS40OTU5MiwtMC4xNzYzOFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjUxLjQ5MDcyLC0wLjE3MzdcIn1dLFwicHJpY2VfcGVuY2VcIjoxNTUsXCJyZWdpb25cIjpcInVrLWxvbmRvblwiLFwicm91dGluZ19yZXF1ZXN0X2lkXCI6XCI2NDdkMWFlMy1iZGFmLTQ4ZTgtYjczNi02NjEyZTE3MmNhMmVcIixcInN0YXJ0XCI6e1wiY29vcmRzXCI6XCI1MS40NzMzNzksLTAuMTk5MjI1XCJ9LFwidGltZVwiOlwiMjAyMi0wMS0zMVQwOTowMDowMCswMDowMC9OT1dJU0hcIixcInZlcnNpb25cIjoyfSIsInJlZ2lvbl9pZCI6InVrLWxvbmRvbiJ9.c9-nyMkO91CPk_V0s6FNHGyNN8Zle8ci7meYBbUmVtA"
+  },
+  {
+    "start": {
+      "coordinates": {
+        "lat": 51.473379,
+        "lon": -0.199225
+      }
+    },
+    "end": {
+      "coordinates": {
+        "lat": 51.495949,
+        "lon": -0.176351
+      }
+    },
+    "duration_seconds": 2290,
+    "duration_accuracy": "scheduled",
+    "price": {
+      "formatted": "£1.55",
+      "amount": "1.55",
+      "currency": "GBP"
+    },
+    "legs": [
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 78,
+        "path": "skdyHb|e@@CDC~@r@PZHCJAHA?ICYA_@K@",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:00:00+00:00",
+          "leg_arrival_time": "2022-01-31T09:01:18+00:00"
+        }
+      },
+      {
+        "travel_mode": "transit",
+        "duration_seconds": 1100,
+        "path": "khdyH`|e@JAGaB_@oBmEyJyB}E{CwCIQcBuD_DcFyCoGB_AS_A_DgGqIqPeBsGcDyLOgAeB}KmAiEcCoIo@gAiB_@eAiC{FcN{EePmFwQGD",
+        "stops": [
+          {
+            "id": "490015575X",
+            "name": "Parsons Green",
+            "coordinates": {
+              "lat": 51.472863,
+              "lon": -0.19921
+            },
+            "indicator_text": "X"
+          },
+          {
+            "id": "490005189E",
+            "name": "Irene Road",
+            "coordinates": {
+              "lat": 51.474059,
+              "lon": -0.196298
+            },
+            "indicator_text": "GA"
+          },
+          {
+            "id": "490014186I",
+            "name": "Wandsworth Bridge Road",
+            "coordinates": {
+              "lat": 51.475486,
+              "lon": -0.194326
+            },
+            "indicator_text": "GB"
+          },
+          {
+            "id": "490011788N",
+            "name": "Rumbold Road",
+            "coordinates": {
+              "lat": 51.478452,
+              "lon": -0.188981
+            },
+            "indicator_text": "GC"
+          },
+          {
+            "id": "490009370E",
+            "name": "Worlds End Health Centre",
+            "coordinates": {
+              "lat": 51.480717,
+              "lon": -0.18483
+            },
+            "indicator_text": "GD"
+          },
+          {
+            "id": "490015066E",
+            "name": "Edith Grove / Worlds End",
+            "coordinates": {
+              "lat": 51.481603,
+              "lon": -0.182217
+            }
+          },
+          {
+            "id": "490005076E",
+            "name": "Hobury Street / Worlds End",
+            "coordinates": {
+              "lat": 51.482463,
+              "lon": -0.179129
+            },
+            "indicator_text": "QH"
+          },
+          {
+            "id": "490015145E",
+            "name": "Beaufort Street",
+            "coordinates": {
+              "lat": 51.484281,
+              "lon": -0.176306
+            },
+            "indicator_text": "QT"
+          },
+          {
+            "id": "490010534E",
+            "name": "Old Church Street",
+            "coordinates": {
+              "lat": 51.485537,
+              "lon": -0.173808
+            },
+            "indicator_text": "KE"
+          },
+          {
+            "id": "490008763KF",
+            "name": "Carlyle Square",
+            "coordinates": {
+              "lat": 51.486646,
+              "lon": -0.171113
+            },
+            "indicator_text": "KF"
+          },
+          {
+            "id": "490005073KL",
+            "name": "Chelsea Old Town Hall",
+            "coordinates": {
+              "lat": 51.487785,
+              "lon": -0.168057
+            },
+            "indicator_text": "KL"
+          }
+        ],
+        "updatable_detail": {
+          "departures": [
+            {
+              "type": "frequency",
+              "service_id": "LondonBus22",
+              "frequency_seconds_range": [578, 578],
+              "time_status": "unknown"
+            }
+          ],
+          "live_departure_availability": "unknown",
+          "statuses": [
+            {
+              "type": "no_issues",
+              "service_ids": ["LondonBus22"]
+            }
+          ],
+          "leg_departure_time": "2022-01-31T09:05:35+00:00",
+          "leg_arrival_time": "2022-01-31T09:23:55+00:00"
+        },
+        "vehicle_types": ["bus"],
+        "services": [
+          {
+            "id": "LondonBus22",
+            "name": "22",
+            "vehicle_types": ["bus"],
+            "brand": {
+              "id": "LondonBus",
+              "name": "Bus",
+              "images": [
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/48b8784c04f1ef54504b24468db3482c2da2df6572d5a4c4d758b602/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "has_space_for_text": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/f07d8df54ead4238c6cdb0f1a5264d7bf5b948a15848e9364600b32f/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/bb11377addd08ab5d2ba85a4f1ce6e8519db8ea681ab13490523a186/d324a6fb/@2x.png",
+                  "width": 33,
+                  "height": 33,
+                  "ui_role": "station",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/9d0396bf3a62b4400abd3590b3ff367bffe42ab380cbdcbae37ede41/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "has_space_for_text": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/eac51b8d19db61809944bedb35abdb81f9345c85506d2a9189ea5372/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/4fb5a26e2e7558278c069c0ce6f72b672054069ddbac96f2b4d951f4/d324a6fb/@2x.png",
+                  "width": 38,
+                  "height": 41,
+                  "ui_role": "pin",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/d017fb8cdd82a312484df53e7bf3e1b4b39c1940a4ce077a6c617d2e/d324a6fb/@2x.png",
+                  "width": 12,
+                  "height": 16,
+                  "ui_role": "vehicle_compact"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/8b4e44e1cdc30e49e8c21edb97e389be3a07b34f1c45cac0b3ef7de7/d324a6fb/@2x.png",
+                  "width": 13,
+                  "height": 16,
+                  "ui_role": "vehicle_compact",
+                  "is_generic": true
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/2e25c93eae55e23cd53e90678d66e4aed6b7beb11f6f869569a200c6/d324a6fb/@2x.png",
+                  "width": 20,
+                  "height": 20,
+                  "ui_role": "vehicle"
+                },
+                {
+                  "url": "https://d3440lt1d9mf95.cloudfront.net/83a375cedd40ff34d59ffc95791be1a130c712d0799ffb782b26eeef/d324a6fb/@2x.png",
+                  "width": 24,
+                  "height": 33,
+                  "ui_role": "vehicle",
+                  "is_generic": true
+                }
+              ]
+            },
+            "color": "#DC241F",
+            "background_color": "#C2322E",
+            "text_color": "#FFFFFF"
+          }
+        ]
+      },
+      {
+        "travel_mode": "walk",
+        "duration_seconds": 920,
+        "path": "uegyHjy_@FG^tA@BIHBF@HAH?DAHCBCDm@^BP]TSLUNqBnAOJc@Vm@\\cAh@EBGBg@X_@RCBIFGDCFeGtGUXQ_@GJYi@ECGFGOEDk@x@MNMN[^A@q@|@cArAy@fAQTABINIPKd@CPAPAJ?JMCCHEHEFC@GD[HEB?CC@GBI?EA?BCVE?C?E?G@I@K@E?E?I@EFGHKBK@I?eCb@OBB`A?PM@@R@XSDE@GDIHGJENAJ?L?Z@XE@",
+        "updatable_detail": {
+          "leg_departure_time": "2022-01-31T09:23:55+00:00",
+          "leg_arrival_time": "2022-01-31T09:39:15+00:00"
+        }
+      }
+    ],
+    "route_departure_time": "2022-01-31T09:00:00+00:00",
+    "route_arrival_time": "2022-01-31T09:39:15+00:00",
+    "signature": "v2.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjbTp0cmFuc2l0MSIsImlhdCI6MTY0MzU2MDMyNywiZnJvbnRlbmRfc2lnbmF0dXJlIjoie1wiY2FyXCI6NDIxOSxcImR1cmF0aW9uXCI6MjI5MCxcImVuZFwiOntcImNvb3Jkc1wiOlwiNTEuNDk1OTQ5LC0wLjE3NjM1MVwifSxcImpyX2luZGV4XCI6NCxcImxlZ3NcIjpbe1wiZGlzdGFuY2VcIjoxMDcsXCJkdXJhdGlvblwiOjc4LFwiZWNcIjpcIjUxLjQ3Mjg2LC0wLjE5OTIxXCIsXCJtb2RlXCI6XCJ3YWxrXCIsXCJzY1wiOlwiNTEuNDczMzgsLTAuMTk5MjJcIn0se1wiZHVyYXRpb25cIjoxMTAwLFwiZW5kXCI6XCI0OTAwMDUwNzNLTFwiLFwibW9kZVwiOlwidHJhbnNpdFwiLFwicm91dGVfaWRzXCI6W1wiTG9uZG9uQnVzMjJcIl0sXCJzdGFydFwiOlwiNDkwMDE1NTc1WFwiLFwic3RvcF9jb3VudFwiOjExfSx7XCJkaXN0YW5jZVwiOjEyNTAsXCJkdXJhdGlvblwiOjkyMCxcImVjXCI6XCI1MS40OTU5MiwtMC4xNzYzOFwiLFwibW9kZVwiOlwid2Fsa1wiLFwic2NcIjpcIjUxLjQ4Nzc5LC0wLjE2ODA2XCJ9XSxcInByaWNlX3BlbmNlXCI6MTU1LFwicmVnaW9uXCI6XCJ1ay1sb25kb25cIixcInJvdXRpbmdfcmVxdWVzdF9pZFwiOlwiNjQ3ZDFhZTMtYmRhZi00OGU4LWI3MzYtNjYxMmUxNzJjYTJlXCIsXCJzdGFydFwiOntcImNvb3Jkc1wiOlwiNTEuNDczMzc5LC0wLjE5OTIyNVwifSxcInRpbWVcIjpcIjIwMjItMDEtMzFUMDk6MDA6MDArMDA6MDAvTk9XSVNIXCIsXCJ2ZXJzaW9uXCI6Mn0iLCJyZWdpb25faWQiOiJ1ay1sb25kb24ifQ.SuDXNcmjvbidlATbInvvu5HZPViX2WzRIMrGrmPXNk8"
+  }
+]

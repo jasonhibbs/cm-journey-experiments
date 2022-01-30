@@ -1,0 +1,383 @@
+Abchurch Lane
+Abchurch Yard
+Adams Court
+Aldermanbury
+Aldermanbury Square
+Aldermans Walk
+Aldgate
+Aldgate High Street
+Allhallows Lane
+Amen Corner
+Amen Court
+America Square
+Amlin plc, The Leadenhall Building, Leadenhall Street
+Angel Court
+Angel Lane
+Apothocary Street
+Arthur Street
+Austin Friars
+Ave Maria Lane
+Barbican
+Barbican, Brandon Mews
+Barbican, Lambert Jones Mews
+Barbican, Lauderdale Place
+Barbican, Shaftesbury Place
+Barbican, Speed Highwalk
+Barbican, St. Giles Churchyard
+Barbican, St. Giles Terrace
+Barbican, The Postern
+Barbican, Wallside
+Bartholomew Lane
+Basinghall Avenue
+Basinghall Street
+Bassishaw Highwalk
+Bastion Highwalk
+Beech Street
+Bell Inn Yard
+Bell Wharf Lane
+Bengal Court
+Bennet's Hill
+Bevis Marks
+Billiter Street
+Birchin Lane
+Bishopsgate
+Bishopsgate Arcade
+Bishopsgate Churchyard
+Black Friars Lane
+Blake Morgan, New Street Square
+Blomfield Street
+Bolt Court
+Booth Lane
+Botolph Alley
+Botolph Lane
+Bouverie Street
+Bow Churchyard
+Bow Lane
+Brabant Court
+Bread Street
+Bream's Buildings
+Bride Court
+Bride Lane
+Bridewell Place
+Bridgewater Square
+Broad Street Place
+Broadgate
+Broken Wharf
+Bullhorn International, Bishopgate
+Bulls Head Passage
+Burgon Street
+Bury Street
+Bush Lane
+Byward Street
+Camomile Street
+Cannon Street
+Carey Lane
+Carlisle Avenue
+Carmelite Street
+Carter Court
+Carter Lane
+Castle Baynard Street
+Castle Court
+Caterina , Silk Street
+Cavendish Court
+Cheapside
+Cheapside Passage
+Chubb Insurance Co of Europe Se, One America Square, Crosswall
+Church Entry
+City of London Magistrates Court, Queen Victoria Street
+Clement's Lane
+Clifford's Inn Passage
+Cloak Lane
+Coleman Street
+College Hill
+College Street
+Compter Passage
+Cooper's Row
+Coppa Club, Three Quays Walk
+Copthall Avenue
+Cornhill
+Cousin Lane
+Crane Court
+Creechurch Lane
+Creed Lane
+Crescent
+Crosswall
+Crown Court
+Crutched Friars
+Crutched Friars, Railway Arches
+Cullum Street
+Cursitor Street
+Deans Court
+Devonshire Row
+Devonshire Square
+Distaff Lane
+Doddle, Liverpool Street Station, Liverpool Street
+Dominion Street
+Dorset Rise
+Dowgate Hill
+Dukes Place
+East Harding Street
+Eastcheap
+Eldon Street
+Exchange Arcade
+Falcon Court
+Fann Street
+Farringdon Street
+Fenchurch Avenue
+Fenchurch Place
+Fenchurch Street
+Fenchurch Street, Fenchurch Buildings
+Fetter Lane
+Finch Lane
+Finsbury Avenue
+Finsbury Circus
+Finsbury Street
+Fish Street Hill
+Fishmongers Hall Wharf
+Fleet Place
+Fleet Street
+Fore Street
+Fore Street Avenue
+Foster Lane
+Frederick's Place
+Friar Street
+Friday Street
+Frobisher Crescent
+Furnival Street
+Garlick Hill
+George Yard
+Godliman Street
+Goring Street
+Gough Square
+Gracechurch Street
+Great New Street
+Great St. Helen's
+Great St. Thomas Apostle
+Great Swan Alley
+Great Tower Street
+Great Winchester Street
+Gresham Street
+Greystoke Place
+Groveland Court
+Guildhall Buildings
+Guildhall Yard
+Gutter Lane
+Harp Lane
+Hart Street
+Haydon Street
+Heneage Lane
+High Timber Street
+Hind Court
+Honey Lane
+Houndsditch
+Idol Lane
+India Street
+Inner Temple Lane
+Ireland Yard
+Ironmonger Lane
+Jewry Street
+John Carpenter Street
+Johnsons Court
+King Street
+King William Street
+Kings Arms Yard
+Knightrider Court
+Knightrider Street
+Lambeth Hill
+Laurence Pountney Hill
+Laurence Pountney Lane
+Lawrence Lane
+Leadenhall Market
+Leadenhall Place
+Leadenhall Street
+Lime Street
+Limeburner Lane
+Little New Street
+Little Trinity Lane
+Liverpool Street
+Liverpool Street, The Arcade
+Lloyd's Avenue
+Lombard Court
+Lombard Lane
+Lombard Street
+London Street
+London Wall
+London Wall Buildings
+Lothbury
+Lovat Lane
+Love Lane
+Lower New Change Passage
+Lower Thames Street
+Ludgate Broadway
+Ludgate Circus
+Ludgate Hill
+Ludgate Square
+Mansion House Place
+Mark Lane
+Martin Lane
+Mason's Avenue
+Milton Street
+Mincing Lane
+Minories
+Minster Court
+Minster Pavement
+Mitre Street
+Monkwell Square
+Monument Street
+Moor Lane
+Moorfields
+Moorfields Highwalk
+Moorgate
+Moorgate Place
+Nevill Lane
+New Bridge Street
+New Broad Street
+New Change
+New Change Passage
+New Fetter Lane
+New London Street
+New Street
+New Street Square
+Nicholas Lane
+Noble Street
+Nordea Bank, Aldermanbury Square
+Northumberland Alley
+Oat Lane
+Octagon Arcade
+office Group, Salisbury House, London Wall
+Old Bailey
+Old Billingsgate Walk
+Old Broad Street
+Old Change Court
+Old Jewry
+Old Mitre Court
+Paternoster Row
+Paternoster Square
+Paul's Walk
+Pemberton Row
+Penningtons Manches Solicitors LLP, Wood Street
+Pepys Street
+Philpot Lane
+Pilgrim Street
+Pilgrim Street, Priory Court
+Playhouse Yard
+Pleydell Street
+Plough Place
+Plumtree Court
+Poppins Court
+Poultry
+Princes Street
+Printer Street
+Printers Inn Court
+Pudding Lane
+Puddle Dock
+Queen Street
+Queen Street Place
+Queen Victoria Street
+Queenhithe
+Queens Head Passage
+Rathbone Bros plc, Finsbury Circus
+Red Lion Court
+Rolls Passage
+Rood Lane
+Ropemaker Street
+Rose Street
+Royal Court
+Royal Exchange
+Royal Exchange Avenue
+Royal Exchange Buildings
+Royal Exchange, The Courtyard
+Royal Mint Court
+Russia Row
+Saffery Champness, Queen Victoria Street
+Sales Office, Blake Tower, Fann Street
+Salisbury Court
+Salisbury Square
+Salters Hall Court
+Savage Gardens
+Seething Lane
+Serjeant's Inn
+Ship Tavern Passage
+Shoe Lane
+Skewered, Mark Lane
+Sky Garden Walk
+South Place
+St. Andrew Street
+St. Andrew's Hill
+St. Botolph Street
+St. Bride Street
+St. Bride's Avenue
+St. Brides Passage
+St. Clare Street
+St. Dunstan's Hill
+St. Georges Lane
+St. Helen's Place
+St. James's Passage
+St. Mary At Hill
+St. Mary Axe
+St. Michael's Alley
+St. Olave's Court
+St. Paul's Churchyard
+St. Swithin's Lane
+Stew Lane
+Suffolk Lane
+Sun Street
+Swan Lane
+Swingers, Brown's Buildings
+Talbot Court
+Telegraph Street
+Temple
+Temple Avenue
+Temple, Brick Court
+Temple, Crown Office Row
+Temple, Essex Court
+Temple, Garden Court
+Temple, Harcourt Buildings
+Temple, Hare Court
+Temple, King's Bench Walk
+Temple, Middle Temple Lane
+Temple, New Court
+Temple, Paper Buildings
+Temple, Plowden Buildings
+Temple, Pump Court
+Temple, Queen Elizabeth Buildings
+Temple, Temple Gardens
+The City Centre, Basinghall Street
+The Monument Building, Monument Street
+Threadneedle Street
+Threadneedle Walk
+Throgmorton Avenue
+Throgmorton Street
+Tokenhouse Yard
+Took's Court
+Tower Hill
+Tower Hill Terrace
+Tower Pier
+Tower Place
+Tower Place East
+Trig Lane
+Trinity Square
+Trump Street
+Tudor Street
+Undershaft
+Upper Cheapside Passage
+Upper Thames Street
+Victoria Avenue
+Victoria Embankment
+Victoria Embankment, Kings Reach
+Vine Street
+Walbrook
+Wardrobe Place
+Warwick Lane
+Watling Street
+Well Court
+White Hart Street
+White Lion Court
+White Lyon Court
+Whitecross Place
+Whitefriars Street
+Whittington Avenue
+Wilson Street
+Wine Office Court
+Wood Street
+Wormwood Street

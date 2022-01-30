@@ -1,12 +1,20 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import BottomSheet from '@/components/BottomSheet.vue'
+import { streetnames } from '@/composables/usePlaceholder'
+import { onMounted, ref } from 'vue'
+
+let text = $ref('')
+
+onMounted(async () => {
+  text = await streetnames()
+})
 </script>
 
 <template lang="pug">
 
-#background
-  p Accusantium inventore sit est minima ea nostrum incidunt. Libero dolores quis provident aut sapiente repellat enim aut. Unde id vel incidunt dignissimos. Iste facere iste praesentium aut eveniet quidem. Rerum fugit sed earum voluptatem nisi fuga. Ea repellendus quis eos asperiores.
+.fake-map
+  p {{ text }}
 
 BottomSheet
   template(#header)
@@ -21,19 +29,19 @@ BottomSheet
 </template>
 
 <style lang="scss">
-#background {
-  background-color: hsl(220deg, 100%, 50%);
+.fake-map {
+  background-color: #f6f4eb;
   max-height: 100vh;
   overflow: auto;
 
   @media (prefers-color-scheme: dark) {
-    background-color: hsl(220deg, 100%, 10%);
+    background-color: #36475c;
   }
 }
 
-#background p {
+.fake-map p {
   font-size: 12rem;
-  font-weight: 200;
+  font-weight: 900;
   line-height: 0.8;
   width: 150%;
   margin: 0;
@@ -63,11 +71,20 @@ BottomSheet
   }
 
   @media (prefers-color-scheme: dark) {
-    background-color: var(--color-root);
+    background-color: var(--color-contrast-5);
 
     ul li {
-      background-color: var(--color-contrast-5);
+      background-color: var(--color-contrast-10);
     }
+  }
+}
+
+.bottom-sheet-header {
+  padding: 1em;
+  box-shadow: 0 0.5px 0 fade-out(#012, 0.6);
+
+  h1 {
+    margin: 0;
   }
 }
 </style>
