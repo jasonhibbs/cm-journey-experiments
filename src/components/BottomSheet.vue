@@ -213,7 +213,6 @@ function onScrollSheet(e: Event) {
   right: 0;
   bottom: 0;
   max-width: 400px;
-  overflow: hidden;
   margin: auto;
 
   top: #{clamp(

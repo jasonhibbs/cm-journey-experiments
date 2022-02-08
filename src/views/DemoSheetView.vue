@@ -83,6 +83,10 @@ BottomSheet
   padding: 1em;
   box-shadow: 0 0.5px 0 fade-out(#012, 0.6);
 
+  @media (prefers-color-scheme: dark) {
+    box-shadow: 0 0.5px 0 fade-out(#fff, 0.92);
+  }
+
   h1 {
     margin: 0;
   }
