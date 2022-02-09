@@ -249,7 +249,7 @@ function onScrollSheet(e: Event) {
   overflow: hidden;
   height: 100%;
   border-radius: 12px 12px 0 0;
-  box-shadow: 0 0 20px fade-out(#012, 0.6);
+  box-shadow: 0 0 20px fade-out(#012, 0.8);
   transition: border-radius 0.3s ease;
 
   [data-scroll='true']:not(._dragging) & {
