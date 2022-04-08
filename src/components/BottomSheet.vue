@@ -19,13 +19,13 @@ const sheet = ref(null)
 const contextClasses = $computed(() => ({
   _dragging: !!sheetDelta,
 }))
+
 const contextStyles: any = $computed(() => ({
-  '--sheet-delta': `${sheetDelta}px`,
+  '--delta': `${sheetDelta}px`,
 }))
 
 // Detents
 
-// Weakly-typed…
 // 2: top
 // 1: middle
 // 0: bottom
@@ -59,6 +59,12 @@ function getHigherDetent() {
 function getLowerDetent() {
   const next = currentDetent - 1
   return next < minDetent ? minDetent : next
+}
+
+// Click
+
+function onClickHeader() {
+  currentDetent = getHigherDetent()
 }
 
 // Dragging
@@ -180,7 +186,9 @@ function onScrollSheet(e: Event) {
     ref="sheet"
     @scroll="onScrollSheet"
   )
-    .bottom-sheet-header
+    .bottom-sheet-header(
+      @click="onClickHeader"
+    )
       slot(name="header")
     .bottom-sheet-body
       slot(name="body")
@@ -189,24 +197,21 @@ function onScrollSheet(e: Event) {
 
 <style lang="scss">
 .bottom-sheet-context {
-  --sheet-delta: 0px;
-  --sheet-header-height: 80px;
+  --delta: 0px;
+  --header-height: 80px;
+  --padding-x: 1rem;
 
   // detents
 
-  --sheet-detent-0: calc(
-    100% - var(--sheet-header-height) - env(safe-area-inset-bottom)
-  );
-  --sheet-detent-1: 50%;
-  --sheet-detent-2: 0px;
+  --detent-0: calc(100% - var(--header-height) - env(safe-area-inset-bottom));
+  --detent-1: 50%;
+  --detent-2: 0px;
 
   // overscroll
 
-  --sheet-overscroll: 12px;
-  --sheet-overscroll-bottom: calc(
-    var(--sheet-detent-0) + var(--sheet-overscroll)
-  );
-  --sheet-overscroll-top: var(--sheet-detent-2);
+  --overscroll: 12px;
+  --overscroll-bottom: calc(var(--detent-0) + var(--overscroll));
+  --overscroll-top: var(--detent-2);
 
   position: absolute;
   left: 0;
@@ -216,25 +221,25 @@ function onScrollSheet(e: Event) {
   margin: auto;
 
   top: #{clamp(
-      var(--sheet-overscroll-top),
-      calc(var(--sheet-detent-1) + var(--sheet-delta)),
-      var(--sheet-overscroll-bottom)
+      var(--overscroll-top),
+      calc(var(--detent-1) + var(--delta)),
+      var(--overscroll-bottom)
     )};
 
   &[data-detent='2'] {
     border-radius: 0;
     top: #{clamp(
-        var(--sheet-overscroll-top),
-        calc(var(--sheet-detent-2) + var(--sheet-delta)),
-        var(--sheet-overscroll-bottom)
+        var(--overscroll-top),
+        calc(var(--detent-2) + var(--delta)),
+        var(--overscroll-bottom)
       )};
   }
 
   &[data-detent='0'] {
     top: #{clamp(
-        var(--sheet-overscroll-top),
-        calc(var(--sheet-detent-0) + var(--sheet-delta)),
-        var(--sheet-overscroll-bottom)
+        var(--overscroll-top),
+        calc(var(--detent-0) + var(--delta)),
+        var(--overscroll-bottom)
       )};
   }
 

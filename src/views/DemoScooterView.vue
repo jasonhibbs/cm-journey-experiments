@@ -30,12 +30,14 @@ BottomSheet(:scrollBody="true")
 
 <style lang="scss">
 .fake-map {
+  color: #e8e8e9;
   background-color: #f6f4eb;
   max-height: 100vh;
   overflow: auto;
 
   @media (prefers-color-scheme: dark) {
-    background-color: #3c536d;
+    background-color: #36475c;
+    color: fade-out(white, 0.96);
   }
 }
 
@@ -46,10 +48,6 @@ BottomSheet(:scrollBody="true")
   width: 150%;
   margin: 0;
   word-break: break-all;
-
-  @media (prefers-color-scheme: dark) {
-    color: fade-out(white, 0.96);
-  }
 }
 
 .bottom-sheet {
